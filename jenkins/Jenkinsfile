@@ -31,5 +31,10 @@ pipeline {
                 echo 'Completed'
             }
         }
+        stage('Pipeline v2') {
+            steps {
+                echo 'Pipeline V2 added'
+            }
+        }
     }
 }
